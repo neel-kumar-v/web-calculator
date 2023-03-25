@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="calculator.js" defer></script>
+    </head>
+    <body>
+
+
+        <div class="sidebar" id="sidebar">
+            <a class="span-four" href="roman.html">Roman Numeral Calculator</a>
+            <!-- <a class="span-four" href="goalplaanner.html">Goal Planner</a> -->
+
+        </div>
+        
+        <div class="calculator-grid" id="calculator-grid">
+
+            <div class="output">
+
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+
+            </div>
+
+            <button data-all-clear class="span-one-half-top-left">AC</button>
+            <button data-delete class="span-one-half">DEL</button>
+            <button data-operation class="span-one-top-right">÷</button>
+            <button data-number class="span-one">1</button>
+            <button data-number class="span-one">2</button>
+            <button data-number class="span-one">3</button>
+            <button data-operation class="span-one">*</button>
+            <button data-number class="span-one">4</button>
+            <button data-number class="span-one">5</button>
+            <button data-number class="span-one">6</button>
+            <button data-operation class="span-one">+</button>
+            <button data-number class="span-one">7</button>
+            <button data-number class="span-one">8</button>
+            <button data-number class="span-one">9</button>
+            <button data-operation class="span-one">-</button>
+            <button data-number class="span-one-bottom-left">.</button>
+            <button data-number class="span-one">0</button>
+            <button data-equals class="span-two-bottom-right">=</button>
+
+
+            <button onclick = "sideBar()" id = "sideBar">. . .</button>
+            
+            
+            
+        </div>
+
+
+       
+    </body>
+</html>

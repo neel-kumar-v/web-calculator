@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Numeral Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="roman.js" defer></script>
+    
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar">
+      <a class="span-four" href="calculator.html">4-Operations Calculator</a>
+      <!-- <a class="span-four" href="calculator.html">Standard Calculator</a>
+      <a class="span-four" href="calculator.html">Standard Calculator</a>
+      <a class="span-four" href="calculator.html">Standard Calculator</a>
+      <a class="span-four" href="calculator.html">Standard Calculator</a> -->
+    </div>
+    <div class="roman-calculator-grid" id="roman-calculator-grid">
+
+      <div class="output">
+        <div id="data-previous-operand" class="previous-operand"></div>
+        <div id="data-current-operand" class="current-operand"></div>
+      </div>
+
+      
+      <button data-all-clear class="span-two-top-left">AC</button>
+      <button data-delete class="span-two-top-right">DEL</button>
+      <button data-numeral class="span-one-left">I</button>
+      <button data-numeral class="span-one">V</button>
+      <button data-numeral class="span-one">X</button>
+      <button data-numeral class="span-one-right">L</button>
+      <button data-numeral class="span-one-bottom-left">C</button>
+      <button data-numeral class="span-one-bottom">D</button>
+      <button data-numeral class="span-one-bottom">M</button>
+      <button data-equals class="span-one-bottom-right">=</button>
+
+      <button onclick="sideBar()" id="sideBar">. . .</button>
+    </div>
+
+  </body>
+</html>
